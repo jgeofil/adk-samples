@@ -5,6 +5,9 @@ description = "AI-driven agent designed to facilitate the exploration of the mar
 authors = [{ name = "Antonio Gulli", email = "gulli@google.com" }]
 license = "Apache License 2.0"
 readme = "README.md"
+dependencies = [
+    "google-adk>=1.4.2",
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
