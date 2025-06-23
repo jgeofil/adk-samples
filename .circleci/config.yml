@@ -13,8 +13,13 @@ jobs:
       - python/install-packages:
           pkg-manager: poetry
       - run:
-          name: Run tests
-          command: poetry run pytest --junitxml=junit.xml || ((($? == 5)) && echo 'Did not
+          name: Run dummy tests
+          command: |
+            echo "Running dummy test 1"
+            echo "Test 1 passed"
+            echo "Running dummy test 2"
+            echo "Test 2 passed"
+            poetry run pytest --junitxml=junit.xml || ((($? == 5)) && echo 'Did not
             find any tests to run.')
       - store_test_results:
           path: junit.xml
