@@ -25,6 +25,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+*.whl
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -183,4 +184,15 @@ yarn-debug.log
 yarn-error.log
 .pnpm-debug.log
 
+<<<<<<< HEAD
 .gemini
+=======
+# Agent Data Files
+python/agents/personalized-shopping/personalized_shopping/shared_libraries/data/
+python/agents/personalized-shopping/personalized_shopping/shared_libraries/search_engine/**
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+>>>>>>> 9c1c5b78212a73c57643703b9a60ff658202de80
