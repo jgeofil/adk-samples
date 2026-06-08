@@ -68,15 +68,15 @@ wheels = [
 
 [[package]]
 name = "anyio"
-version = "4.12.1"
+version = "4.13.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "idna" },
     { name = "typing-extensions", marker = "python_full_version < '3.13'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/96/f0/5eb65b2bb0d09ac6776f2eb54adee6abe8228ea05b20a5ad0e4945de8aac/anyio-4.12.1.tar.gz", hash = "sha256:41cfcc3a4c85d3f05c932da7c26d0201ac36f72abd4435ba90d0464a3ffed703", size = 228685, upload-time = "2026-01-06T11:45:21.246Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/19/14/2c5dd9f512b66549ae92767a9c7b330ae88e1932ca57876909410251fe13/anyio-4.13.0.tar.gz", hash = "sha256:334b70e641fd2221c1505b3890c69882fe4a2df910cba14d97019b90b24439dc", size = 231622, upload-time = "2026-03-24T12:59:09.671Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/38/0e/27be9fdef66e72d64c0cdc3cc2823101b80585f8119b5c112c2e8f5f7dab/anyio-4.12.1-py3-none-any.whl", hash = "sha256:d405828884fc140aa80a3c667b8beed277f1dfedec42ba031bd6ac3db606ab6c", size = 113592, upload-time = "2026-01-06T11:45:19.497Z" },
+    { url = "https://files.pythonhosted.org/packages/da/42/e921fccf5015463e32a3cf6ee7f980a6ed0f395ceeaa45060b61d86486c2/anyio-4.13.0-py3-none-any.whl", hash = "sha256:08b310f9e24a9594186fd75b4f73f4a4152069e3853f1ed8bfbf58369f4ad708", size = 114353, upload-time = "2026-03-24T12:59:08.246Z" },
 ]
 
 [[package]]
@@ -103,14 +103,14 @@ wheels = [
 
 [[package]]
 name = "authlib"
-version = "1.6.9"
+version = "1.6.12"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cryptography" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/af/98/00d3dd826d46959ad8e32af2dbb2398868fd9fd0683c26e56d0789bd0e68/authlib-1.6.9.tar.gz", hash = "sha256:d8f2421e7e5980cc1ddb4e32d3f5fa659cfaf60d8eaf3281ebed192e4ab74f04", size = 165134, upload-time = "2026-03-02T07:44:01.998Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d3/30/6691fdc63b35f54a5a65e04fa1e59d827f4d4e8f4a39678ba7d3088ce0c8/authlib-1.6.12.tar.gz", hash = "sha256:0656d8482f28fc8221929d5f35b2bde5d13e10555ebc06b4561b0d622e83b1bd", size = 165368, upload-time = "2026-05-04T08:11:31.826Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/53/23/b65f568ed0c22f1efacb744d2db1a33c8068f384b8c9b482b52ebdbc3ef6/authlib-1.6.9-py2.py3-none-any.whl", hash = "sha256:f08b4c14e08f0861dc18a32357b33fbcfd2ea86cfe3fe149484b4d764c4a0ac3", size = 244197, upload-time = "2026-03-02T07:44:00.307Z" },
+    { url = "https://files.pythonhosted.org/packages/cd/51/9b0b5cd4cf683a02db937a6f9bbebcdc9c56558a7bb3763ce7d3512103c3/authlib-1.6.12-py2.py3-none-any.whl", hash = "sha256:e9229ad7fde610b139dd12f5edbe97eab9ee78bfb85691247e767727850b99ab", size = 244473, upload-time = "2026-05-04T08:11:30.354Z" },
 ]
 
 [[package]]
@@ -752,7 +752,7 @@ wheels = [
 
 [[package]]
 name = "google-cloud-logging"
-version = "3.14.0"
+version = "3.15.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "google-api-core", extra = ["grpc"] },
@@ -766,9 +766,9 @@ dependencies = [
     { name = "proto-plus" },
     { name = "protobuf" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/9d/ce/0d3539008dc33b436e7c5c644abc8f8a7ec5900911d14a8e34e145f0ebe5/google_cloud_logging-3.14.0.tar.gz", hash = "sha256:361e83cd692fecc7da10351f641c474591f586f234fc49394db4ba5c8c5994a7", size = 293452, upload-time = "2026-03-06T21:53:07.526Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/99/06/253e9795a5877f35183a7175977ca47a17255fe0c8487155f48b86c83f3e/google_cloud_logging-3.15.0.tar.gz", hash = "sha256:72168a1e98bbfc27c75f0b8f630a7f5d786065f3f1f7e9e53d2d787a03693a4a", size = 294881, upload-time = "2026-03-26T22:18:36.947Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/7b/3e/01795fc20f1b5f8b1d1d22eeb425c9c3396046f1761c4f6b4cc7d8dcab90/google_cloud_logging-3.14.0-py3-none-any.whl", hash = "sha256:4767ebdb3b46a3052d5185a7d5cf02829d33ea12a0aab1d57221110d581b9e1a", size = 232961, upload-time = "2026-03-06T21:52:48.393Z" },
+    { url = "https://files.pythonhosted.org/packages/86/0c/fc1a0c57f95d21559ed13e381d9024e9ee9d521489707573fd10af856545/google_cloud_logging-3.15.0-py3-none-any.whl", hash = "sha256:7dcc67434c4e7181510c133d5ac8fd4ce60c23fa4158661f67e54bf440c32450", size = 234212, upload-time = "2026-03-26T22:15:16.404Z" },
 ]
 
 [[package]]
@@ -826,7 +826,7 @@ wheels = [
 
 [[package]]
 name = "google-cloud-secret-manager"
-version = "2.26.0"
+version = "2.29.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "google-api-core", extra = ["grpc"] },
@@ -836,9 +836,9 @@ dependencies = [
     { name = "proto-plus" },
     { name = "protobuf" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c3/9c/a6c7144bc96df77376ae3fcc916fb639c40814c2e4bba2051d31dc136cd0/google_cloud_secret_manager-2.26.0.tar.gz", hash = "sha256:0d1d6f76327685a0ed78a4cf50f289e1bfbbe56026ed0affa98663b86d6d50d6", size = 277603, upload-time = "2025-12-18T00:29:31.065Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d2/7c/5c88cdde9664f6c75fb68aa11e0af4309a92bef38dd38df0456ffb0f469b/google_cloud_secret_manager-2.29.0.tar.gz", hash = "sha256:ee64133af8fdb3780affb65ec6ccf10ab15a0113d8edeba388665f4be87ce1be", size = 278437, upload-time = "2026-06-03T16:13:43.149Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c8/30/a58739dd12cec0f7f761ed1efb518aed2250a407d4ed14c5a0eeee7eaaf9/google_cloud_secret_manager-2.26.0-py3-none-any.whl", hash = "sha256:940a5447a6ec9951446fd1a0f22c81a4303fde164cd747aae152c5f5c8e6723e", size = 223623, upload-time = "2025-12-18T00:29:29.311Z" },
+    { url = "https://files.pythonhosted.org/packages/b6/c2/fc3275bc42a522757cb5141d7dae51f048b93d2f5fe4574fcee5392cef03/google_cloud_secret_manager-2.29.0-py3-none-any.whl", hash = "sha256:21bac2d0adb0bb3c13c346d7223832f197c2266534528a1bf1402774e06395a3", size = 225042, upload-time = "2026-06-03T16:12:20.162Z" },
 ]
 
 [[package]]
@@ -900,7 +900,7 @@ wheels = [
 
 [[package]]
 name = "google-cloud-trace"
-version = "1.18.0"
+version = "1.19.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "google-api-core", extra = ["grpc"] },
@@ -909,9 +909,9 @@ dependencies = [
     { name = "proto-plus" },
     { name = "protobuf" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/02/34/b1883f4682f1681941100df0e411cb0185013f7c349489ab1330348d7c5c/google_cloud_trace-1.18.0.tar.gz", hash = "sha256:46d42b90273da3bc4850bb0d6b9a205eb826a54561ff1b30ca33cc92174c3f37", size = 103347, upload-time = "2026-01-15T13:04:56.441Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/89/7b/c2a5848c4722373c92b500b65e6308ad89ca0c7c01054e0d948c58c107f2/google_cloud_trace-1.19.0.tar.gz", hash = "sha256:58293c6efcee6c74bb854ff01b008823bef66845c14f15ffa5209d545098a65d", size = 103875, upload-time = "2026-03-26T22:18:18.123Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/87/15/366fd8b028a50a9018c933270d220a4e53dca8022ce9086618b72978ab90/google_cloud_trace-1.18.0-py3-none-any.whl", hash = "sha256:52c002d8d3da802e031fee62cd49a1baf899932d4f548a150f685af6815b5554", size = 107488, upload-time = "2026-01-15T12:17:21.519Z" },
+    { url = "https://files.pythonhosted.org/packages/a4/91/0090acafa7d2caf1bf0d7222d42935e118164a539f9f9a00a814afa63fa1/google_cloud_trace-1.19.0-py3-none-any.whl", hash = "sha256:59604c4c775c40af31b367df6bada0af34518cc35ac8cfedecd43898a120c51d", size = 108454, upload-time = "2026-03-26T22:14:32.631Z" },
 ]
 
 [[package]]
@@ -1660,14 +1660,14 @@ wheels = [
 
 [[package]]
 name = "proto-plus"
-version = "1.27.1"
+version = "1.28.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "protobuf" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3a/02/8832cde80e7380c600fbf55090b6ab7b62bd6825dbedde6d6657c15a1f8e/proto_plus-1.27.1.tar.gz", hash = "sha256:912a7460446625b792f6448bade9e55cd4e41e6ac10e27009ef71a7f317fa147", size = 56929, upload-time = "2026-02-02T17:34:49.035Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c9/56/e647b0c675392d2da368da7b6f158f7368b18542fd6f7d7400a2f39de000/proto_plus-1.28.0.tar.gz", hash = "sha256:38e5696342835b08fc116f30a25665b29531cda9d5d5643e9b81fc312385abd9", size = 57221, upload-time = "2026-05-07T08:04:50.811Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5d/79/ac273cbbf744691821a9cca88957257f41afe271637794975ca090b9588b/proto_plus-1.27.1-py3-none-any.whl", hash = "sha256:e4643061f3a4d0de092d62aa4ad09fa4756b2cbb89d4627f3985018216f9fefc", size = 50480, upload-time = "2026-02-02T17:34:47.339Z" },
+    { url = "https://files.pythonhosted.org/packages/7c/20/b122d4626976acb81132036d2ad1bb35a1a8775fceb837ec30964622516a/proto_plus-1.28.0-py3-none-any.whl", hash = "sha256:a630604310899e73c59ec302e5765c058d412b2f090b9c79c8822589f14955b8", size = 50410, upload-time = "2026-05-07T08:03:31.962Z" },
 ]
 
 [[package]]
@@ -2329,16 +2329,16 @@ wheels = [
 
 [[package]]
 name = "sqlalchemy-spanner"
-version = "1.17.2"
+version = "1.19.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "alembic" },
     { name = "google-cloud-spanner" },
     { name = "sqlalchemy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/8e/29/21698bb83e542f32e3581886671f39d94b1f7e8b190c24a8bfa994e62fd6/sqlalchemy_spanner-1.17.2.tar.gz", hash = "sha256:56ce4da7168a27442d80ffd71c29ed639b5056d7e69b1e69bb9c1e10190b67c4", size = 82745, upload-time = "2025-12-15T23:30:08.622Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/af/b6/ce05f1b8a9c486bbac26d7348625c78ba6e751decc25009f28880504c29d/sqlalchemy_spanner-1.19.0.tar.gz", hash = "sha256:834cec66fb418e5085a44c68cee570c594c66dd8535b67dd5e8be3571d172136", size = 82914, upload-time = "2026-06-03T16:14:49.721Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/7f/87/05be45a086116cea32cfa00fa0059d31b5345360dba7902ee640a1db793b/sqlalchemy_spanner-1.17.2-py3-none-any.whl", hash = "sha256:18713d4d78e0bf048eda0f7a5c80733e08a7b678b34349496415f37652efb12f", size = 31917, upload-time = "2025-12-15T23:30:07.356Z" },
+    { url = "https://files.pythonhosted.org/packages/6d/38/8150a0022174d02956b0f6b586777006af2fc794b1baa72748a11fde039f/sqlalchemy_spanner-1.19.0-py3-none-any.whl", hash = "sha256:3367a89388d9b7106111fc48c7fac441163602c414ad157f62e18b5705cc760e", size = 31919, upload-time = "2026-06-03T16:13:39.522Z" },
 ]
 
 [[package]]
@@ -2408,7 +2408,7 @@ provides-extras = ["lint"]
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "agent-starter-pack", specifier = ">=0.14.1" },
+    { name = "agent-starter-pack", specifier = ">=0.32.0" },
     { name = "pytest", specifier = ">=8.3.5" },
     { name = "pytest-asyncio", specifier = ">=0.26.0" },
     { name = "ruff", specifier = ">=0.4.6" },
