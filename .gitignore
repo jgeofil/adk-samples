@@ -184,9 +184,8 @@ yarn-debug.log
 yarn-error.log
 .pnpm-debug.log
 
-<<<<<<< HEAD
 .gemini
-=======
+
 # Agent Data Files
 python/agents/personalized-shopping/personalized_shopping/shared_libraries/data/
 python/agents/personalized-shopping/personalized_shopping/shared_libraries/search_engine/**
@@ -195,4 +194,4 @@ python/agents/personalized-shopping/personalized_shopping/shared_libraries/searc
 .terraform/
 *.tfstate
 *.tfstate.backup
->>>>>>> 9c1c5b78212a73c57643703b9a60ff658202de80
+
