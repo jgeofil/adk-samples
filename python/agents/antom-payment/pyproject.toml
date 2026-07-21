@@ -12,7 +12,7 @@ requires-python = ">=3.11"
 
 dependencies = [
     "google-adk>=1.11.0",
-    "mcp>=1.13.0",
+    "mcp>=1.28.1",
 ]
 
 [tool.ruff]
