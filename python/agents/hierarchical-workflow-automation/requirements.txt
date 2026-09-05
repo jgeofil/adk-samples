@@ -16,7 +16,7 @@ cffi==1.17.1
 charset-normalizer==3.4.3
 click==8.2.1
 cloudpickle==3.0.0
-cryptography==45.0.7
+cryptography==50.0.0
 dataclasses-json==0.6.7
 Deprecated==1.2.18
 docstring_parser==0.17.0
